@@ -1,0 +1,148 @@
+<mxfile host="65bd71144e">
+    <diagram id="EYq71LSqy9QnQWPueRVv" name="Page-1">
+        <mxGraphModel dx="3847" dy="2444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="185" value="" style="swimlane;startSize=0;shadow=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=none;fillColor=#FFFFFF;fontStyle=1;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="-970" y="-600" width="1600" height="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="users Information" style="swimlane;direction=west;strokeColor=#10739e;fillColor=#b1ddf0;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="185" vertex="1">
+                    <mxGeometry x="1214" y="360" width="360" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Add a user" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="2" vertex="1">
+                    <mxGeometry x="10" y="30" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="search a user" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="2" vertex="1">
+                    <mxGeometry x="10" y="100" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="change the category &lt;br style=&quot;font-size: 20px;&quot;&gt;of&amp;nbsp;a user" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="2" vertex="1">
+                    <mxGeometry x="140" y="30" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="See black list" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="2" vertex="1">
+                    <mxGeometry x="170" y="100" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="see all users" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="2" vertex="1">
+                    <mxGeometry x="10" y="160" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="admin interface" style="swimlane;direction=west;strokeColor=#10739e;fillColor=#b1ddf0;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="185" vertex="1">
+                    <mxGeometry x="630" y="340" width="440" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="see books the user&lt;br style=&quot;font-size: 20px;&quot;&gt;borrowed" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="14" vertex="1">
+                    <mxGeometry x="30" y="100" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="see all books" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="14" vertex="1">
+                    <mxGeometry x="35" y="40" width="135" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="search a book" style="shape=folder;fontStyle=1;tabWidth=140;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;fontColor=#000000;strokeColor=#000000;fillColor=none;shadow=0;sketch=0;fontSize=20;" parent="14" vertex="1">
+                    <mxGeometry x="260" y="30" width="145" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="author name" style="html=1;fontColor=#000000;strokeColor=#000000;fillColor=none;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="198" vertex="1">
+                    <mxGeometry width="130" height="30" relative="1" as="geometry">
+                        <mxPoint x="10" y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="200" value="book title" style="html=1;fontColor=#000000;strokeColor=#000000;fillColor=none;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="198" vertex="1">
+                    <mxGeometry x="10" y="80" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="edition" style="html=1;fontColor=#000000;strokeColor=#000000;fillColor=none;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="198" vertex="1">
+                    <mxGeometry x="10" y="120" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="Id" style="html=1;fontColor=#000000;strokeColor=#000000;fillColor=none;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="198" vertex="1">
+                    <mxGeometry x="10" y="160" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="see books which have&lt;br style=&quot;font-size: 20px;&quot;&gt;been borrowed" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="14" vertex="1">
+                    <mxGeometry x="30" y="180" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="185" source="36" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1040" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="books information" style="swimlane;direction=west;strokeColor=#10739e;fillColor=#b1ddf0;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="185" vertex="1">
+                    <mxGeometry x="630" y="40" width="440" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Register a rutunr of book" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="36" vertex="1">
+                    <mxGeometry x="170" y="40" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="lend a book" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="36" vertex="1">
+                    <mxGeometry x="17.5" y="40" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="Add a new book" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="36" vertex="1">
+                    <mxGeometry x="17.5" y="110" width="172.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="connexion page" style="swimlane;direction=west;strokeColor=#10739e;fillColor=#b1ddf0;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="185" vertex="1">
+                    <mxGeometry x="450" y="750" width="340" height="215" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="password" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="76" vertex="1">
+                    <mxGeometry x="220" y="40" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="pseudo" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="76" vertex="1">
+                    <mxGeometry x="20" y="40" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="connect" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=100;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="76" vertex="1">
+                    <mxGeometry x="120" y="125" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="category" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="76" vertex="1">
+                    <mxGeometry x="119.99999999999999" y="70" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="userinterface" style="swimlane;direction=west;strokeColor=#ae4132;fillColor=#fad9d5;shadow=0;sketch=0;fontColor=#000000;fontStyle=1;fontSize=20;" parent="185" vertex="1">
+                    <mxGeometry x="180" y="410" width="390" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="see books the user&lt;br style=&quot;font-size: 20px;&quot;&gt;borrowed" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="28" vertex="1">
+                    <mxGeometry x="15" y="100" width="195" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="see all books" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=#000000;fillColor=none;fontColor=#000000;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="28" vertex="1">
+                    <mxGeometry x="20" y="40" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="search a book" style="shape=folder;fontStyle=1;tabWidth=140;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;fontColor=#000000;strokeColor=#000000;fillColor=none;shadow=0;sketch=0;fontSize=20;" parent="28" vertex="1">
+                    <mxGeometry x="230" y="20" width="145" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="author name" style="html=1;fontColor=#000000;strokeColor=#000000;fillColor=none;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="181" vertex="1">
+                    <mxGeometry width="130" height="30" relative="1" as="geometry">
+                        <mxPoint x="10" y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="183" value="book title" style="html=1;fontColor=#000000;strokeColor=#000000;fillColor=none;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="181" vertex="1">
+                    <mxGeometry x="10" y="80" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="edition" style="html=1;fontColor=#000000;strokeColor=#000000;fillColor=none;shadow=0;sketch=0;fontStyle=1;fontSize=20;" parent="181" vertex="1">
+                    <mxGeometry x="10" y="120" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;shadow=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;fontStyle=1;fillColor=#b1ddf0;fontSize=20;" parent="185" source="14" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1190" y="490" as="sourcePoint"/>
+                        <mxPoint x="1240" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="208" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;shadow=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#10739e;fontStyle=1;fillColor=#b1ddf0;fontSize=20;" parent="185" source="14" target="36" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1224" y="495.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="1080" y="495.0000000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="209" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;shadow=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#10739e;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=1;fillColor=#b1ddf0;fontSize=20;" parent="185" source="76" target="14" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="560" y="700.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="560" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="210" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;shadow=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#ae4132;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontStyle=1;fillColor=#fad9d5;fontSize=20;" parent="185" source="28" target="76" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="870" as="sourcePoint"/>
+                        <mxPoint x="613" y="630" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="211" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;shadow=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=1;fillColor=#b1ddf0;fontSize=20;" parent="185" source="2" target="36" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1370" y="240.00000000000023" as="sourcePoint"/>
+                        <mxPoint x="1370" y="140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1394" y="145"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

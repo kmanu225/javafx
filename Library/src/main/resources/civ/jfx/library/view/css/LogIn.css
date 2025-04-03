@@ -1,0 +1,65 @@
+/* Root styling */
+.root {
+    -fx-font-size: 13pt;
+    -fx-font-family: 'Comic Sans MS';
+}
+
+
+
+#Library {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6e0b14;
+}
+
+/* Button styling */
+.button {
+    -fx-background-radius: 20px;
+    -fx-background-color: #6e0b14;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #9b4843;
+}
+
+.text-field, .password-field {
+    -fx-pref-height: 30px;
+    -fx-pref-width: 100%;
+    -fx-font-size: 13pt;
+    -fx-padding: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-focus-color: #6e0b14;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #6e0b14;
+}
+
+/* Checkbox styling */
+.check-box {
+    -fx-font-size: 12pt;
+    -fx-text-fill: #333333;
+}
+
+.check-box:selected {
+    -fx-text-fill: #6e0b14;
+}
+
+/* Image styling */
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);
+}
+
+/* Alert Label styling */
+#alertUser {
+    -fx-text-fill: red;
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}

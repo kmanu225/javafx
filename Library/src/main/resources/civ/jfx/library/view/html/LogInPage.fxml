@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" stylesheets="@../css/LogIn.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="civ.jfx.library.controller.LogIn">
+   <center>
+      <HBox alignment="TOP_CENTER" prefHeight="302.0" prefWidth="552.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="bigVbox" alignment="TOP_CENTER" prefHeight="648.0" prefWidth="859.0" spacing="5.0" style="-fx-background-color: white;">
+               <padding>
+                  <Insets left="15.0" right="15.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="167.0" fitWidth="308.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/lock.jpeg" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER" prefHeight="73.0" prefWidth="498.0" spacing="200.0">
+                     <children>
+                        <VBox prefHeight="100.0" prefWidth="152.0">
+                           <children>
+                              <Label text="login" />
+                              <TextField fx:id="login" prefHeight="0.0" prefWidth="152.0" promptText="login" />
+                              <CheckBox fx:id="checkManager" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Manager">
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
+                              </CheckBox>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="109.0" prefWidth="284.0">
+                           <children>
+                              <Label text="Password" />
+                              <PasswordField fx:id="password" prefHeight="19.0" prefWidth="284.0" promptText="password" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Label fx:id="alertUser" prefHeight="47.0" prefWidth="498.0" stylesheets="@../css/LogIn.css" />
+                  <Button fx:id="connexion" mnemonicParsing="false" onAction="#goToUserPage" prefHeight="30.0" prefWidth="203.0" text="Connect" />
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <top>
+      <HBox prefHeight="52.0" prefWidth="800.0" spacing="20.0" style="-fx-background-color: #6e0b14;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="52.0" fitWidth="79.0">
+               <image>
+                  <Image url="@../images/logo-b.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

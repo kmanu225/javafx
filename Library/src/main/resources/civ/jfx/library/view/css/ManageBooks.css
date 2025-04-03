@@ -1,0 +1,15 @@
+.root{
+    -fx-font-size: 13pt;
+    -fx-font-family: 'Comic Sans MS';
+}
+
+#Library{
+    -fx-font-size: 20pt;
+}
+.button{
+    -fx-background-radius: 20px;
+}
+
+.button:hover{
+    -fx-background-color: rgba(155, 72, 67, 0.38);
+}
