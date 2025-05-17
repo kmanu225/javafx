@@ -50,7 +50,7 @@ java --module-path "C:\Users\HP\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0
 To package the application using `jpackage`, run the following command:
 
 ```sh
-jpackage --name LibraryApp --input target --main-jar Library-1.0.jar --main-class civ.jfx.library.Launch --module-path "C:\Users\HP\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.14.7-hotspot\lib\javafx-sdk-21.0.6\lib" --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web --type exe --dest package --win-shortcut --win-menu --win-dir-chooser
+jpackage --name LibraryApp --input target --main-jar Library-1.0.jar --main-class civ.jfx.library.Launch --module-path "C:\Users\HP\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.14.7-hotspot\lib\javafx-sdk-21.0.6\lib" --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web --type exe --dest ../package --win-shortcut --win-menu --win-dir-chooser
 ```
 
 ## **References**
